@@ -1,0 +1,16 @@
+div, span {
+    width: 80px;    /*너비 (가로)*/
+    height: 80px;   /*높이 (세로)*/
+    margin: 20px;   /*마진 (여유공간)*/
+}
+
+div{
+    background: red;
+    /*display: inline;    표시 방법 - 인라인*/
+    display: inline-block;  /*표시 방법 - 블럭으로 가로 정렬*/
+}
+
+span{
+    background: blue;
+    display: block;     /*표시 방법 블럭 형식*/
+}

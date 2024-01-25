@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>게시판 실험 중</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- 사이드 바 시작 -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.webp">
+                    <h2>메인<span class="danger">화면</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <div class="material-icons-sharp">
+                        close
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>new Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- 사이드 바 끝 -->
+
+        <!-- 게시판 화면 시작 -->
+        <main>
+            
+            <!-- 게시판 설정 시작 영역-->
+            <h1>게시판</h1>
+            <div class="board-list">
+                <div>
+                    <select class="selectList">
+                    <option>최신글순</option>
+                    <option>최신댓글순</option>
+                    <option>많은댓글순</option>
+                    <option>좋아요순</option>
+                    </select>
+                </div>
+                
+                <div class="wrapper">
+                    <div class="input-data">
+                        <input type="text">
+                        <label></label>
+                    </div>
+                </div>
+
+
+                <div class="search-input">
+                    <label for="innerSearch" class="blind locales_enter_search_keyword">
+                        검색어 입력
+                    </label>
+                    <input type="text" id="innerSearch" name="innerSearch">
+                    <button type="button" id="btnInnerSearch" class="btn-search locales_enter_search_keyword">
+                        검색어 입력
+                    </button>
+                </div>
+                <!--<p class="count"><span class="locales_search_results">검색 결과</span> - <span class="key-color"></span></p>-->
+
+            </div>
+            
+            <!-- 게시판 설정 끝 영역-->
+
+        </main>
+        <!-- 게시판 화면 끝-->
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
