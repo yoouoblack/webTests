@@ -3,6 +3,7 @@ div{
     height: 50px;
     margin-bottom: 20px;    /*마진 (여유공간), 맨 아래 여유공간*/
     background: red;
+    display: inline-block;
 }
 
 .container{

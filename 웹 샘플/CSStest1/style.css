@@ -12,5 +12,5 @@ div{
 
 span{
     background: blue;
-    display: block;     /*표시 방법 블럭 형식*/
+    display: block;     /*표시 방법 블럭 세로 정렬*/
 }
